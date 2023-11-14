@@ -1,23 +1,23 @@
 /**
- * @file calculator.h
+ * @file forestry.h
  * 
  * @brief Provides functions for math. utilities
  */
 
-#ifndef CALCULATOR_H
-#define CALCULATOR_H
+#ifndef FORESTRY_H
+#define FORESTRY_H
 
 #include "../../utility/header/commonTypes.h"
 
 namespace Coruh
 {
-    namespace Calculator
+    namespace Forestry
     {
         /**
-            @class Calculator
+            @class Forestry
             @brief Provides Basic functions for various operations.
         */
-        class Calculator
+        class Forestry
         {
         public:
             /**
@@ -59,4 +59,4 @@ namespace Coruh
     }
 }
 
-#endif // CALCULATOR_H
+#endif // FORESTRY_H
