@@ -1,57 +1,52 @@
 //#define ENABLE_FORESTRY_TEST  // Uncomment this line to enable the Forestry tests
 
-#include "gtest/gtest.h"
-#include "../../forestry/header/forestry.h"  // Adjust this include path based on your project structure
+#include <vector>
+#include <gtest/gtest.h>
+#include "forestry.h"
 
-using namespace Coruh::Forestry;
-
-class ForestryTest : public ::testing::Test {
-protected:
-	void SetUp() override {
-		// Setup test data
-	}
-
-	void TearDown() override {
-		// Clean up test data
-	}
-};
-
-TEST_F(ForestryTest, TestAdd) {
-	double result = Forestry::add(5.0, 3.0);
-	EXPECT_DOUBLE_EQ(result, 8.0);
+// Test addTree function
+TEST(AddTreeTest, AddTreeSuccess) {
+  Tree testTree{ "TestSpecies", "5", "10" };
+  int result = addTree(testTree);
+  ASSERT_EQ(result, 0);
+  // You can add additional checks if needed
 }
 
-TEST_F(ForestryTest, TestSubtract) {
-	double result = Forestry::subtract(5.0, 3.0);
-	EXPECT_DOUBLE_EQ(result, 2.0);
+// Test registration function
+TEST(RegistrationTest, RegistrationSuccess) {
+  // Mock user input for testing
+  std::istringstream mockInput("TestSpecies\n5\n10\n");
+  std::cin.rdbuf(mockInput.rdbuf());
+  int result = registration();
+  ASSERT_EQ(result, 0);
+  // You can add additional checks if needed
 }
 
-TEST_F(ForestryTest, TestMultiply) {
-	double result = Forestry::multiply(5.0, 3.0);
-	EXPECT_DOUBLE_EQ(result, 15.0);
+// Test loadTreesFromFile function
+TEST(LoadTreesFromFileTest, LoadTreesFromFileSuccess) {
+  int result = loadTreesFromFile();
+  ASSERT_EQ(result, 0);
+  // You can add additional checks if needed
 }
 
-TEST_F(ForestryTest, TestDivide) {
-	double result = Forestry::divide(6.0, 3.0);
-	EXPECT_DOUBLE_EQ(result, 2.0);
+// Test saveTreesToFile function
+TEST(SaveTreesToFileTest, SaveTreesToFileSuccess) {
+  int result = saveTreesToFile();
+  ASSERT_EQ(result, 0);
+  // You can add additional checks if needed
 }
 
-TEST_F(ForestryTest, TestDivideByZero) {
-	EXPECT_THROW(Forestry::divide(5.0, 0.0), std::invalid_argument);
+// Test updateTrees function
+TEST(UpdateTreesTest, UpdateTreesSuccess) {
+  // Mock user input for testing
+  std::istringstream mockInput("UpdatedSpecies\n6\n15\n");
+  std::cin.rdbuf(mockInput.rdbuf());
+  int result = updateTrees();
+  ASSERT_EQ(result, 0);
+  // You can add additional checks if needed
 }
 
-/**
- * @brief The main function of the test program.
- *
- * @param argc The number of command-line arguments.
- * @param argv An array of command-line argument strings.
- * @return int The exit status of the program.
- */
-int main(int argc, char** argv) {
-#ifdef ENABLE_FORESTRY_TEST
-	::testing::InitGoogleTest(&argc, argv);
-	return RUN_ALL_TESTS();
-#else
-	return 0;
-#endif
+int main(int argc, char **argv) {
+  ::testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
 }

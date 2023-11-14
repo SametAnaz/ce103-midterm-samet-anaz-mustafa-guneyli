@@ -1,116 +1,108 @@
 ﻿#include <cstdlib>
 #include <stdexcept>
 #include <fstream>
-#include <list>
 #include <iostream>
 #include <vector>
 #include <string>
-#include <unordered_map> 
-#include <stack>
-#include <queue>
-#include <fstream>
 #include <sstream>
-#include <chrono>
-#include <thread>
-#include <unordered_set>
+#include "forestry.h"
 
-struct Tree {
-    std::string species;
-    std::string age;
-    std::string quantity;
-};
+// ForestryData adlı bir yapı tanımla
+ForestryData forestryData;
 
-std::vector<Tree> trees;
-std::unordered_map<std::string, Tree> treeHashMap;
-
-void addTree(const Tree& tree) {
-    trees.push_back(tree);
-    treeHashMap[tree.species] = tree;
+int addTree(const Tree &tree) {
+  forestryData.trees.push_back(tree);  // forestryData.trees kullanıldı
+  forestryData.treeHashMap[tree.species] = tree;
+  // Başarı durumunda 0 döndür
+  return 0;
 }
 
-void registration() {
+int loadTreesFromFile() {
+  std::string filename = "treeinfo.txt";
+  std::ifstream file(filename);
+
+  if (file.is_open()) {
+    forestryData.trees.clear(); // forestryData.trees kullanıldı
+    std::string line;
+
+    while (std::getline(file, line)) {
+      std::istringstream linestream(line);
+      std::string species, age, quantity;
+      std::getline(linestream, species, ',');
+      std::getline(linestream, age, ',');
+      std::getline(linestream, quantity, ',');
+      forestryData.trees.push_back({ species, age, quantity });  // forestryData.trees kullanıldı
+    }
+
+    file.close();
+    std::cout << "Members have been loaded from " << filename << std::endl;
+    return 0; // Başarı durumunda 0 dön
+  } else {
+    std::cerr << "Failed to open the file for loading." << std::endl;
+    return -1; // Hata durumunda -1 dön
+  }
+}
+
+int registration() {
+  std::string species, age, quantity;
+  std::cout << "Enter Species: ";
+  std::cin >> species;
+  std::cout << "Enter Age: ";
+  std::cin >> age;
+  std::cout << "Enter Quantity: ";
+  std::cin >> quantity;
+  Tree newTree{ species, age, quantity };
+  int result = addTree(newTree);
+  // Hata durumunda -1 döndür
+  return result;
+}
+
+int saveTreesToFile() {
+  std::string filename = "treeinfo.txt";
+  std::ofstream file(filename, std::ios::out | std::ios::trunc);
+
+  if (file.is_open()) {
+    for (const Tree &tree : forestryData.trees) {
+      file << tree.species << "," << tree.age << "," << tree.quantity << "\n";
+    }
+
+    file.close();
+    std::cout << "Tree information has been saved to " << filename << std::endl;
+    return 0; // Başarı durumunda 0 dön
+  } else {
+    std::cerr << "Failed to open the file for saving." << std::endl;
+    return -1; // Hata durumunda -1 dön
+  }
+}
+
+int updateTrees() {
+  if (loadTreesFromFile() != 0) {
+    // Hata durumunda -1 döndür
+    return -1;
+  }
+
+  int index = 0;
+
+  for (Tree &tree : forestryData.trees) {
     std::string species, age, quantity;
-    std::cout << "Enter Species: ";
+    // Kullanıcıdan yeni verileri al
+    std::cout << "Enter new species for tree " << index << ": ";
     std::cin >> species;
-    std::cout << "Enter Age: ";
+    std::cout << "Enter new age for tree " << index << ": ";
     std::cin >> age;
-    std::cout << "Enter Quantity: ";
+    std::cout << "Enter new quantity for tree " << index << ": ";
     std::cin >> quantity;
-    Tree newTree{ species, age, quantity };
-    addTree(newTree);
+    // Verileri güncelle
+    tree.species = species;
+    tree.age = age;
+    tree.quantity = quantity;
+    ++index;
+  }
+
+  if (saveTreesToFile() != 0) {
+    // Hata durumunda -1 döndür
+    return -1;
+  }
+
+  return 0;
 }
-
-void saveTreesToFile() {
-    std::string filename = "treeinfo.bat";
-    std::ofstream file(filename, std::ios::out | std::ios::trunc);
-
-    if (file.is_open()) {
-        file << "@echo off\n";
-        file << "echo Tree Information:\n";
-        for (const Tree& tree : trees) {
-            file << "echo " << tree.species << "," << tree.age << "," << tree.quantity << "\n";
-        }
-        file.close();
-        std::cout << "Tree information has been saved to " << filename << std::endl;
-        std::this_thread::sleep_for(std::chrono::milliseconds(2000));
-    }
-    else {
-        std::cout << "Failed to open the file for saving." << std::endl;
-    }
-}
-
-
-void loadTreesFromFile() {
-    std::string filename = "treeinfo.txt";
-    std::ifstream file(filename);
-
-    if (file.is_open()) {
-        trees.clear(); // Önceki verileri temizle
-
-        std::string line;
-        while (std::getline(file, line)) {
-            std::istringstream linestream(line);
-            std::string species, age, quantity;
-
-            std::getline(linestream, species, ',');
-            std::getline(linestream, age, ',');
-            std::getline(linestream, quantity, ',');
-
-            trees.push_back({ species, age, quantity });
-        }
-        file.close();
-        std::cout << "Members have been loaded from " << filename << std::endl;
-    }
-    else {
-        std::cout << "Failed to open the file for loading." << std::endl;
-    }
-}
-
-
-
-/*void updateTrees() {
-    loadTreesFromFile(); // Mevcut verileri yükle
-
-    int index = 0;
-    for (const Tree& tree : trees) {
-        std::string species, age, quantity;
-
-        // Kullanıcıdan yeni verileri al
-        std::cout << "Enter new species for tree " << index << ": ";
-        std::cin >> species;
-        std::cout << "Enter new age for tree " << index << ": ";
-        std::cin >> age;
-        std::cout << "Enter new quantity for tree " << index << ": ";
-        std::cin >> quantity;
-
-        // Verileri güncelle
-        trees[index].species = species;
-        trees[index].age = age;
-        trees[index].quantity = quantity;
-
-        ++index;
-    }
-
-    saveTreesToFile(); // Güncellenmiş verileri dosyaya kaydet
-}
-*/
