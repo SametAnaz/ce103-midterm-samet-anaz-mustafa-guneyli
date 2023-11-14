@@ -25,7 +25,7 @@ void PrintCentered(const std::string& text) {
 }
 
 int main() {
-    ForestManager forest;
+   
  
 
 
@@ -65,13 +65,14 @@ int main() {
                     switch (subChoice) {
                     case 1:
                         system("cls");
-                        forest.registration();
-                        forest.saveTreesToFile();
-                        
+                        registration();
+                        saveTreesToFile();
 
 
                         break;
                     case 2:
+                        system("cls");
+                        
 
 
                         break;
