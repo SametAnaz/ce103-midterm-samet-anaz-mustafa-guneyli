@@ -191,6 +191,7 @@ int deleteTreeAtIndex(int index) {
 
   return 0;
 }
+
 int deleteTree() {
   if (loadTreesFromFile() != 0) {
     return -1;
