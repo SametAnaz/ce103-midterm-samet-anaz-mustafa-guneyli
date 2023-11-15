@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5A39F080-5ECA-395C-BC7E-E9ACFDFF3163}</ProjectGuid>
+    <ProjectGuid>{9AC8FADD-1603-3F7F-BE83-24A7A37093CC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -73,7 +73,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\CMakeFiles\4f87b5b51897eeb0bac9b7ca46dedfbf\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\CMakeFiles\ae0158882c9a49ccd69adb9f1aecd75e\RUN_TESTS_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -85,7 +85,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\utility\CMakeFiles\RUN_TESTS_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\utility\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -99,14 +99,14 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\utility\CMakeFiles\RUN_TESTS_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\utility\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\ZERO_CHECK.vcxproj">
-      <Project>{18F17BE8-ED90-3F6B-9983-DFF9FD8BC889}</Project>
+    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\ZERO_CHECK.vcxproj">
+      <Project>{A9899416-F59A-3F02-A1B9-3B7E0028552C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

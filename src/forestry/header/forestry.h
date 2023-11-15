@@ -35,4 +35,7 @@ int listTreesFromFile();
 int updateTreeAtIndex();
 int enterForMenu();
 int returnToMainMenu();
+int deleteTree();
+int deleteTreeAtIndex(int index);
+
 #endif // FORESTRY_H

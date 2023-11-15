@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1AAE743C-8BAF-3DBA-B220-5F8356126BCD}</ProjectGuid>
+    <ProjectGuid>{3A93EEEB-0EE3-3CE6-9A12-240BFDB87B98}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,18 +41,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gtest_main.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gtest_main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gtest_main.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gtest_main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/include" /external:I "C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest" -J -utf-8</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/include" /external:I "C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest" -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -72,14 +72,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;ENABLE_UTILITY_TEST;ENABLE_FORESTRY_TEST;ENABLE_UTILITY_LOGGER;ENABLE_FORESTRY_LOGGER;MSVC_ENV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\lib\Debug\gtest_mainpdb_debug_postfix-NOTFOUND.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\lib\Debug\gtest_mainpdb_debug_postfix-NOTFOUND.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;ENABLE_UTILITY_TEST;ENABLE_FORESTRY_TEST;ENABLE_UTILITY_LOGGER;ENABLE_FORESTRY_LOGGER;MSVC_ENV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -92,7 +92,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/include" /external:I "C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest" -J -utf-8</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/include" /external:I "C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest" -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DisableSpecificWarnings>4251;4275;4702</DisableSpecificWarnings>
@@ -112,14 +112,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\lib\Release\gtest_main.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\lib\Release\gtest_main.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;ENABLE_UTILITY_TEST;ENABLE_FORESTRY_TEST;ENABLE_UTILITY_LOGGER;ENABLE_FORESTRY_LOGGER;MSVC_ENV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -131,11 +131,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Strawberry\c\bin\cmake.exe -SC:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli -BC:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win --check-stamp-file C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/googletest-build/googletest/CMakeFiles/generate.stamp
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli -BC:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win --check-stamp-file C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/googletest-build/googletest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,12 +143,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPython\Support.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPython3.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindThreads.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\Config.cmake.in;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\gtest.pc.in;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\gtest_main.pc.in;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPython\Support.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPython3.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindThreads.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\Config.cmake.in;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\gtest.pc.in;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\gtest_main.pc.in;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Strawberry\c\bin\cmake.exe -SC:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli -BC:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win --check-stamp-file C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/googletest-build/googletest/CMakeFiles/generate.stamp
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli -BC:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win --check-stamp-file C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/googletest-build/googletest/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -156,23 +156,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPython\Support.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPython3.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindThreads.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\Config.cmake.in;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\gtest.pc.in;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\gtest_main.pc.in;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Strawberry\c\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPython\Support.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindPython3.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\FindThreads.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Strawberry\c\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\Config.cmake.in;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\gtest.pc.in;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\gtest_main.pc.in;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\src\gtest_main.cc" />
+    <ClCompile Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\src\gtest_main.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\ZERO_CHECK.vcxproj">
-      <Project>{18F17BE8-ED90-3F6B-9983-DFF9FD8BC889}</Project>
+    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\ZERO_CHECK.vcxproj">
+      <Project>{A9899416-F59A-3F02-A1B9-3B7E0028552C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\gtest.vcxproj">
-      <Project>{E5EA4CAA-8263-3386-A043-1792BF2E1ACF}</Project>
+    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\gtest.vcxproj">
+      <Project>{A6BE4ACE-B251-37D9-9504-18BACC0A02A3}</Project>
       <Name>gtest</Name>
     </ProjectReference>
   </ItemGroup>

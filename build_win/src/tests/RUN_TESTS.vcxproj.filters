@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\CMakeFiles\89c0718da2e353134f213963eec447f8\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\CMakeFiles\fdcab452e7f64b34ed6a890cbe35d9b7\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{D3C9B40B-9E78-3CF2-9330-390641146B08}</UniqueIdentifier>
+      <UniqueIdentifier>{95884735-9DC9-3074-89F1-7EF4FBCF8374}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

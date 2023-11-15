@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F321372E-4A72-36A4-B36B-4BA92CC5BB8D}</ProjectGuid>
+    <ProjectGuid>{74F100CF-FDBC-3995-9855-3607486D4392}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -75,7 +75,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\CMakeFiles\41dac209557ef206b1d056bbe0e9f410\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\CMakeFiles\92c7661aa07213e30f90b3423f18b358\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -87,7 +87,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\utility\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\utility\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -101,20 +101,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\utility\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\utility\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\ZERO_CHECK.vcxproj">
-      <Project>{18F17BE8-ED90-3F6B-9983-DFF9FD8BC889}</Project>
+    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\ZERO_CHECK.vcxproj">
+      <Project>{A9899416-F59A-3F02-A1B9-3B7E0028552C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\ALL_BUILD.vcxproj">
-      <Project>{D7491BE9-E1A6-3321-A5EB-79A0C6B39512}</Project>
+    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\ALL_BUILD.vcxproj">
+      <Project>{BB57CF0C-9485-3173-9BD2-9270F21DAD29}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -52,8 +52,9 @@ int main() {
           PrintCentered("----------------------------------------");
           PrintCentered("|        1 - Add Tree                   |");
           PrintCentered("|        2 - Edit Tree                  |");
-          PrintCentered("|        3 - List Tree                  |");
-          PrintCentered("|        4 - Main Menu                  |");
+          PrintCentered("|        3 - Delete Tree                |");
+          PrintCentered("|        4 - List Tree                  |");
+          PrintCentered("|        5 - Main Menu                  |");
           PrintCentered("----------------------------------------");
           PrintCentered("Selection: ");
           int subChoice;
@@ -72,15 +73,21 @@ int main() {
               break;
 
             case 3:
-                system("cls");
-                listTreesFromFile();
-                enterForMenu();
-                break;
+              system("cls");
+              deleteTree();
+              break;
 
             case 4:
-                main();
-                break;
+              system("cls");
+              listTreesFromFile();
+              enterForMenu();
+              break;
+
             case 5:
+              main();
+              break;
+
+            case 6:
               system("cls");
               break;
 
