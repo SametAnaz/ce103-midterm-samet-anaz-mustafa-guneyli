@@ -18,54 +18,52 @@ int addTree(const Tree &tree) {
 }
 
 
-int loadTreesFromFile() {
-  std::string filename = "treeinfo.bat";
-  std::ifstream file(filename);
-
-  if (file.is_open()) {
-    forestryData.trees.clear();
-    std::string line;
-
-    while (std::getline(file, line)) {
-      std::string species, age, quantity;
-      // Dosyadan veriyi alırken virgülle ayırmalısınız
-      size_t pos = line.find(",");
-      species = line.substr(0, pos);
-      line.erase(0, pos + 1);
-      pos = line.find(",");
-      age = line.substr(0, pos);
-      line.erase(0, pos + 1);
-      quantity = line;
-      forestryData.trees.push_back({ species, age, quantity });
+int listTreesFromFile() {
+    if (loadTreesFromFile() != 0) {
+        return -1;
     }
 
-    file.close();
-    std::cout << "Members have been loaded from " << filename << std::endl;
-    return 0;
-  } else {
-    std::cerr << "Failed to open the file for loading." << std::endl;
-    return -1;
-  }
+    // Listeyi göster
+    int index = 1;
+
+    for (const Tree& tree : forestryData.trees) {
+        std::cout << index << ". " << tree.species << ", " << tree.age << ", " << tree.quantity << std::endl;
+        index++;
+    }
+
+    return 0; // Başarı durumunda 0 döndür
 }
 
+int loadTreesFromFile() {
+    std::string filename = "treeinfo.bat";
+    std::ifstream file(filename);
 
+    if (file.is_open()) {
+        forestryData.trees.clear();
+        std::string line;
 
+        while (std::getline(file, line)) {
+            std::string species, age, quantity;
+            size_t pos = line.find(",");
+            species = line.substr(0, pos);
+            line.erase(0, pos + 1);
+            pos = line.find(",");
+            age = line.substr(0, pos);
+            line.erase(0, pos + 1);
+            quantity = line;
+            forestryData.trees.push_back({ species, age, quantity });
+        }
 
-int listTreesFromFile() {
-  if (loadTreesFromFile() != 0) {
-    return -1;
-  }
-
-  // Listeyi göster
-  int index = 1;
-
-  for (const Tree &tree : forestryData.trees) {
-    std::cout << index << ". " << tree.species << ", " << tree.age << ", " << tree.quantity << std::endl;
-    index++;
-  }
-
-  return 0; // Başarı durumunda 0 döndür
+        file.close();
+        std::cout << "Members have been loaded from " << filename << std::endl;
+        return 0;
+    }
+    else {
+        std::cerr << "Failed to open the file for loading." << std::endl;
+        return -1;
+    }
 }
+
 
 
 

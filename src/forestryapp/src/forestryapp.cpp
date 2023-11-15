@@ -9,75 +9,112 @@
 #include "../../forestry/header/forestry.h"
 #include "../../forestry/src/forestry.cpp"
 #include "forestry.h"
-#include <limits>
+
 using namespace std;
 
-// Ekranı temizle
-void ClearScreen() {
-  cout << "\033[2J\033[H";  // Unix/Linux ve MacOS için
-  // system("cls");  // Windows için
+
+void PrintCentered(const std::string& text, int screenWidth = 80) {
+    // Metni ortalamak için kullanılacak boşluk sayısını hesapla
+    int padding = (screenWidth - text.length()) / 2;
+
+    // Eğer metin uzunluğu ekran genişliğinden büyükse veya eşitse hata durumu yazdır
+    if (padding < 0) {
+        std::cerr << "Error: Text length exceeds or equals screen width." << std::endl;
+        // Hata durumunda fonksiyonu terk et
+        return;
+    }
+
+    // Boşlukları metnin etrafına yerleştirerek metni ortala ve yazdır
+    std::cout << std::string(padding, ' ') << text << std::string(padding, ' ') << std::endl;
 }
 
-
-void PrintCentered(const std::string &text, int screenWidth = 80) {
-  // Metni ortalamak için kullanılacak boşluk sayısını hesapla
-  int padding = (screenWidth - text.length()) / 2;
-
-  // Eğer metin uzunluğu ekran genişliğinden büyükse veya eşitse hata durumu yazdır
-  if (padding < 0) {
-    std::cerr << "Error: Text length exceeds or equals screen width." << std::endl;
-    // Hata durumunda fonksiyonu terk et
-    return;
-  }
-
-  // Boşlukları metnin etrafına yerleştirerek metni ortala ve yazdır
-  std::cout << std::string(padding, ' ') << text << std::string(padding, ' ') << std::endl;
-}
 
 int main() {
-  while (true) {
-    ClearScreen();
-    PrintCentered(" Forestry Management and Timber Products");
-    PrintCentered("----------------------------------------");
-    PrintCentered("|    1 - Add                           |");
-    PrintCentered("|    2 - Edit                          |");
-    PrintCentered("|    3 - Delete                        |");
-    PrintCentered("|    4 - List                          |");
-    PrintCentered("|    5 - Quit                          |");
-    PrintCentered("----------------------------------------");
-    PrintCentered("Selection: ");
-    int choice;
-    std::cin >> choice;
+    while (true) {
+        system("cls");
+        PrintCentered(" Forestry Management and Timber Products");
+        PrintCentered("----------------------------------------");
+        PrintCentered("|    1 - Tree Tracking                 |");
+        PrintCentered("|    2 - Forest Management             |");
+        PrintCentered("|    3 - Timber Sales And Shipment     |");
+        PrintCentered("|    4 - Quit                          |");
+        PrintCentered("----------------------------------------");
+        PrintCentered("Selection: ");
+        int choice;
+        std::cin >> choice;
+        system("cls");
 
-    switch (choice) {
-      case 1:
-        registration();
-        enterForMenu();
-        break;
+        switch (choice) {
+        case 1:
+            while (true) {
+                system("cls");
+                PrintCentered("Tree Tracking");
+                PrintCentered("----------------------------------------");
+                PrintCentered("|        1 - Add Tree                   |");
+                PrintCentered("|        2 - Edit Tree                  |");
+                PrintCentered("|        3 - Delete Trees               |");
+                PrintCentered("|        4 - List Tree                  |");
+                PrintCentered("|        5 - Main Menu                  |");
+                PrintCentered("----------------------------------------");
+                PrintCentered("Selection: ");
+                int subChoice;
+                std::cin >> subChoice;
 
-      case 2:
-        updateTrees();
-        enterForMenu();
-        break;
+                switch (subChoice) {
+                case 1:
+                    
+                    registration();
+                    saveTreesToFile();
+                    break;
 
-      case 3:
-        deleteTree();
-        enterForMenu();
-        break;
+                case 2:
+                   
+                    updateTrees();
+                    break;
 
-      case 4:
-        listTreesFromFile();
-        enterForMenu();
-        break;
+                case 3:
+                    
+                     deleteTree();
+                    break;
 
-      case 5:
-        return 0;
+                case 4:
+                    
+                     listTreesFromFile();
+                    break;
 
-      default:
-        std::cout << "Invalid choice! Please try again." << std::endl;
-        enterForMenu();
+                case 5:
+                    break;
+
+                case 6:
+                    
+                    break;
+
+                default:
+                    std::cout << "Invalid choice. Please try again." << std::endl;
+                }
+
+                if (subChoice == 5) {
+                    break;
+                }
+            }
+
+            break;
+
+        case 2:
+            cout << "Forest Management selected!" << endl;
+            // Forest Management fonksiyonunu çağırabilirsiniz.
+            break;
+
+        case 3:
+            cout << "Timber Sales And Shipment selected!" << endl;
+            // Timber Sales And Shipment fonksiyonunu çağırabilirsiniz.
+            break;
+
+        case 5:
+            return 0;
+
+        default:
+            cout << "Invalid choice! Please try again." << endl;
+        }
     }
-  }
-
-  return 0;
 }
