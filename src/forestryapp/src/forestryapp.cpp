@@ -72,11 +72,14 @@ int main() {
               break;
 
             case 3:
-              break;
+                system("cls");
+                listTreesFromFile();
+                enterForMenu();
+                break;
 
             case 4:
-              break;
-
+                main();
+                break;
             case 5:
               system("cls");
               break;

@@ -1,3 +1,3 @@
-@echo off
-echo Tree Information:
-echo 1,2,3
+echo echo echo ,,
+echo echo samet,anaz,siker
+echo eman,eman,eman

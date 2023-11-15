@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\src\mathUtility.cpp">
+    <ClCompile Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\src\mathUtility.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header\commonTypes.h">
+    <ClInclude Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header\commonTypes.h">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header\mathUtility.h">
+    <ClInclude Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header\mathUtility.h">
       <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="header">
-      <UniqueIdentifier>{FBF7537E-30B1-3051-BB74-01A52EA66448}</UniqueIdentifier>
+      <UniqueIdentifier>{740A9CE0-04B0-388E-9B63-004059E847D4}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{B7AD4829-E320-3B7D-81FD-89EFF93ACA58}</UniqueIdentifier>
+      <UniqueIdentifier>{884ED299-2143-3535-BAC0-78EF190A610F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

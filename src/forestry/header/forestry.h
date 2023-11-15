@@ -31,5 +31,8 @@ int registration();
 int saveTreesToFile();
 int loadTreesFromFile();
 int updateTrees();
-
+int listTreesFromFile();
+int updateTreeAtIndex();
+int enterForMenu();
+int returnToMainMenu();
 #endif // FORESTRY_H

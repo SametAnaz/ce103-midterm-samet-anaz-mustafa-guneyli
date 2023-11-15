@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{09B1719D-82C6-393E-8117-AC8FF06885AD}</ProjectGuid>
+    <ProjectGuid>{89AFE363-8FF8-33CC-9D37-1BC80A9670EC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">forestry_tests.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">forestry_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">forestry_tests.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">forestry_tests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -56,8 +56,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/include" /external:I "C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/include" /external:I "C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -76,10 +76,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ENABLE_UTILITY_TEST;ENABLE_FORESTRY_TEST;ENABLE_UTILITY_LOGGER;ENABLE_FORESTRY_LOGGER;MSVC_ENV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\Strawberry\c\bin\cmake.exe -D TEST_TARGET=forestry_tests -D TEST_EXECUTABLE=C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/build/Debug/forestry_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=forestry_tests_TESTS -D CTEST_FILE=C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/forestry_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P C:/Strawberry/c/share/cmake-3.26/Modules/GoogleTestAddTests.cmake
+C:\Strawberry\c\bin\cmake.exe -D TEST_TARGET=forestry_tests -D TEST_EXECUTABLE=C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/build/Debug/forestry_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=forestry_tests_TESTS -D CTEST_FILE=C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/forestry_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P C:/Strawberry/c/share/cmake-3.26/Modules/GoogleTestAddTests.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -104,8 +104,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/Debug/forestry_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/build/Debug/forestry_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/Debug/forestry_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/build/Debug/forestry_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -114,8 +114,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/include" /external:I "C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest/include" /external:I "C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/googletest/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -134,10 +134,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENABLE_UTILITY_TEST;ENABLE_FORESTRY_TEST;ENABLE_UTILITY_LOGGER;ENABLE_FORESTRY_LOGGER;MSVC_ENV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\..\..\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\..\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\forestry\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\utility\header;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest\include;C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -147,7 +147,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\Strawberry\c\bin\cmake.exe -D TEST_TARGET=forestry_tests -D TEST_EXECUTABLE=C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/build/Release/forestry_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=forestry_tests_TESTS -D CTEST_FILE=C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/forestry_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P C:/Strawberry/c/share/cmake-3.26/Modules/GoogleTestAddTests.cmake
+C:\Strawberry\c\bin\cmake.exe -D TEST_TARGET=forestry_tests -D TEST_EXECUTABLE=C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/build/Release/forestry_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=forestry_tests_TESTS -D CTEST_FILE=C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/forestry_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P C:/Strawberry/c/share/cmake-3.26/Modules/GoogleTestAddTests.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -162,8 +162,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/Release/forestry_tests.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/build/Release/forestry_tests.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/Release/forestry_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/build/Release/forestry_tests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -171,11 +171,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/forestry/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/forestry/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Strawberry\c\bin\cmake.exe -SC:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli -BC:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win --check-stamp-file C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/CMakeFiles/generate.stamp
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli -BC:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win --check-stamp-file C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -184,11 +184,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\GoogleTest.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\forestry\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\forestry\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/forestry/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/src/tests/forestry/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Strawberry\c\bin\cmake.exe -SC:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli -BC:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win --check-stamp-file C:/Users/musta/OneDrive/Desktop/algo1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/CMakeFiles/generate.stamp
+C:\Strawberry\c\bin\cmake.exe -SC:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli -BC:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win --check-stamp-file C:/Users/samet/OneDrive/Masaüstü/algo-1/ce103-midterm-samet-anaz-mustafa-guneyli/build_win/src/tests/forestry/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,34 +197,34 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Strawberry\c\share\cmake-3.26\Modules\GoogleTest.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\forestry\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\forestry\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\calculator_test.cpp" />
+    <ClCompile Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\src\tests\forestry\calculator_test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\ZERO_CHECK.vcxproj">
-      <Project>{A9899416-F59A-3F02-A1B9-3B7E0028552C}</Project>
+    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\ZERO_CHECK.vcxproj">
+      <Project>{18F17BE8-ED90-3F6B-9983-DFF9FD8BC889}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\forestry\forestry.vcxproj">
-      <Project>{AC1E10B0-3A60-37E2-9BC8-3505942CD887}</Project>
+    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\forestry\forestry.vcxproj">
+      <Project>{0AF3E780-4772-3313-9D9E-0AADB882BDE5}</Project>
       <Name>forestry</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\gtest.vcxproj">
-      <Project>{A6BE4ACE-B251-37D9-9504-18BACC0A02A3}</Project>
+    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\gtest.vcxproj">
+      <Project>{E5EA4CAA-8263-3386-A043-1792BF2E1ACF}</Project>
       <Name>gtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\gtest_main.vcxproj">
-      <Project>{3A93EEEB-0EE3-3CE6-9A12-240BFDB87B98}</Project>
+    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\tests\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{1AAE743C-8BAF-3DBA-B220-5F8356126BCD}</Project>
       <Name>gtest_main</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\musta\OneDrive\Desktop\algo1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\utility\utility.vcxproj">
-      <Project>{05A9E647-78A0-3D7B-801E-878079EC5FFB}</Project>
+    <ProjectReference Include="C:\Users\samet\OneDrive\Masaüstü\algo-1\ce103-midterm-samet-anaz-mustafa-guneyli\build_win\src\utility\utility.vcxproj">
+      <Project>{400C28EC-73DB-31F9-ACF7-7641B3F901BB}</Project>
       <Name>utility</Name>
     </ProjectReference>
   </ItemGroup>
